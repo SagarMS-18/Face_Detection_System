@@ -353,13 +353,6 @@ Understanding limitations is essential for CSE project reviews:
 
 ---
 
-## 🔒 Privacy & Biometric Data Disclaimer
-
-> **IMPORTANT**: Face images and face encodings constitute sensitive biometric information.
-> This application is strictly an **educational demonstration system** built for project reviews and learning.
-> - Do NOT upload real individuals' biometric data to public repositories.
-> - Temporary uploaded images are automatically deleted immediately after embedding calculation.
-> - Pickled embeddings should be handled with privacy awareness and stored securely.
 
 ---
 
