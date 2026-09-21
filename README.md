@@ -363,11 +363,3 @@ Understanding limitations is essential for CSE project reviews:
 
 ---
 
-## 🎓 Viva & Project Review Q&A Cheat Sheet
-
-- **Q: Why use 128-dimensional encodings instead of pixel matching?**
-  *A: Pixel matching is vulnerable to lighting and rotation. 128-D encodings represent deep structural facial features invariant to minor lighting or scale variations.*
-- **Q: How does the system handle an unknown person?**
-  *A: The system computes the minimum Euclidean distance across all stored encodings. If that distance exceeds `0.50`, it rejects the face as "Unknown" rather than assigning it to the nearest person.*
-- **Q: Why use NumPy Euclidean distance?**
-  *A: Euclidean distance measures the straight-line distance between two vectors in 128-dimensional hyperspace, offering efficient $O(N)$ matching speed.*
