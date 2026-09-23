@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-This project implements a complete biometrics-based face identification application designed specifically for computer science engineering (CSE) students. It allows users to enroll individuals into a local database, detect faces in query images, compute 128-dimensional face embeddings, compare faces using Euclidean distance, and identify or reject faces as "Unknown" based on a similarity threshold.
+This project implements a complete biometrics-based face identification application . It allows users to enroll individuals into a local database, detect faces in query images, compute 128-dimensional face embeddings, compare faces using Euclidean distance, and identify or reject faces as "Unknown" based on a similarity threshold.
 
 ```
                     System Pipeline Flowchart
