@@ -61,8 +61,7 @@ This project implements a complete biometrics-based face identification applicat
 - **Flask-CORS**: Cross-Origin Resource Sharing middleware for frontend interaction.
 - **`face_recognition`**: Deep learning face detection & 128-D encoding library powered by dlib.
 - **NumPy**: Vector manipulation and Euclidean distance calculations.
-- **OpenCV & Pillow**: Image processing and format validation.
-- **scikit-learn**: Data evaluation and auxiliary processing.
+
 
 ### Frontend
 - **React 18**: UI component framework.
